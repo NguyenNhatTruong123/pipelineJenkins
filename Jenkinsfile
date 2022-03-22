@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                script {
-                    sh "bash project.sh"
-                }
+                sh '''#!/bin/bash
+                    ./project.sh 
+                '''
             }
         }
     }
