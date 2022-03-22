@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 sh '''#!/bin/bash
-                    ./project.sh 
+                   echo "hello world" 
                 '''
             }
         }
