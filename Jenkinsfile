@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                sh '''#!/bin/bash
+                bat '''#!/bin/bash
                    echo "hello world" 
                 '''
             }
