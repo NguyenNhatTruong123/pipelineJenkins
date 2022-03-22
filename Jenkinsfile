@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 script {
-                    sh('./project.sh')
+                    sh('C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\JenkinsPipeline\\project.sh')
                 }
             }
         }
